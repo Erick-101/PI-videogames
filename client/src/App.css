@@ -23,6 +23,21 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#fondo{
+  width: 1800px;
+  height: 1000px;
+  background-image: url(videogames.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+
 
 .App-link {
   color: #61dafb;
